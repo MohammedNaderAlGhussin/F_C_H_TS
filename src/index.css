@@ -19,12 +19,15 @@
 
 body {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
 @layer components {
   .btn {
-    @apply border py-2 px-3 rounded-md;
+    @apply border py-2 px-3 rounded-md mt-5;
   }
 }
